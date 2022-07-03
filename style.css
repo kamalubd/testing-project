@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar {
+    display: flex;
+    background-color: aqua;
+    height: 50px;
+}
+
+.logo img {
+    float: left;
+    width: 10%;
+}
+
+.top-nav {
+    float: right;
+    width: 70%;
+    display: inline-flex;
+}
+
+.top-nav nav{
+    padding: 15px;
+    text-align: right;
+    margin-right: 5px;
+
+}
+
+.top-banner img {
+    width: 1300px;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.declaration-block {
+    display: flex;
+}
+
+.declaration-block div{
+    margin: 5px;
+    border: 5px solid aqua;
+    width: 33%;
+}
